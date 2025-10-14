@@ -1,0 +1,62 @@
+{
+    "timer_config": {
+        "work_duration": 1,
+        "short_break": 1,
+        "long_break": 1,
+        "sessions_until_long_break": 4
+    },
+    "sessions_completed": 5,
+    "completed_sessions": [
+        {
+            "type": "work",
+            "duration": 1,
+            "completed_at": "2025-09-11 17:56:43",
+            "session_number": 1
+        },
+        {
+            "type": "work",
+            "duration": 10,
+            "completed_at": "2025-09-12 17:18:05",
+            "session_number": 2
+        },
+        {
+            "type": "short_break",
+            "duration": 3,
+            "completed_at": "2025-09-12 17:21:13",
+            "session_number": 2
+        },
+        {
+            "type": "work",
+            "duration": 10,
+            "completed_at": "2025-09-12 17:31:31",
+            "session_number": 3
+        },
+        {
+            "type": "long_break",
+            "duration": 1,
+            "completed_at": "2025-09-12 17:32:45",
+            "session_number": 3
+        },
+        {
+            "type": "work",
+            "duration": 10,
+            "completed_at": "2025-09-12 17:43:00",
+            "session_number": 4
+        },
+        {
+            "type": "short_break",
+            "duration": 3,
+            "completed_at": "2025-09-12 17:47:12",
+            "session_number": 4
+        },
+        {
+            "type": "work",
+            "duration": 1,
+            "completed_at": "2025-09-13 17:26:12",
+            "session_number": 1
+        }
+    ],
+    "last_saved": "2025-10-14 12:51:53",
+    "study_notes": [],
+    "daily_goal_minutes": 120
+}
