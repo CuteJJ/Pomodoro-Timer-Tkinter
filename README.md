@@ -1,22 +1,22 @@
-# 🕒 Simple Pomodoro Timer with Tkinter
+# Simple Pomodoro Timer with Tkinter
 
 A clean, fully-featured **Pomodoro Timer** built with **Python’s Tkinter GUI library**.  
 Includes multiple timer modes (Pomodoro & Revision), configurable durations, automatic session tracking, and local JSON save/backup.
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎯 **Pomodoro Mode** — Focus sessions with short and long breaks  
-- 📖 **Revision Mode** — Single continuous study session (no breaks)  
-- ⚙️ **Customizable Durations** — Change work / break lengths in-app  
-- 💾 **Auto Save & Backup** — Saves progress to `pomodoro_data.json` and keeps `.bak` backup  
-- 📊 **Statistics Panel** — View sessions completed, total study minutes, averages, and recent activity  
-- 🧵 **Threaded Timer** — Runs in background to keep the UI responsive
+- **Pomodoro Mode** — Focus sessions with short and long breaks  
+- **Revision Mode** — Single continuous study session (no breaks)  
+- **Customizable Durations** — Change work / break lengths in-app  
+- **Auto Save & Backup** — Saves progress to `pomodoro_data.json` and keeps `.bak` backup  
+- **Statistics Panel** — View sessions completed, total study minutes, averages, and recent activity  
+- **Threaded Timer** — Runs in background to keep the UI responsive
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
 ```
 .
@@ -27,7 +27,7 @@ Includes multiple timer modes (Pomodoro & Revision), configurable durations, aut
 
 ---
 
-## 🖥️ Requirements
+## Requirements
 
 - Python 3.8+ (3.10+ recommended)
 - `tkinter` (usually bundled with Python on Windows/macOS; on some Linux distros install via package manager)
@@ -35,7 +35,7 @@ Includes multiple timer modes (Pomodoro & Revision), configurable durations, aut
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 1. Clone or download this repository:
    ```bash
@@ -49,7 +49,7 @@ Includes multiple timer modes (Pomodoro & Revision), configurable durations, aut
 
 ---
 
-## 💡 How to use
+## How to use
 
 - Launch app, click **📚 Study Pomodoro Timer**.
 - Select **Pomodoro** or **Revision** from the dropdown.
@@ -58,7 +58,7 @@ Includes multiple timer modes (Pomodoro & Revision), configurable durations, aut
 
 ---
 
-## 📁 Data & Privacy
+## Data & Privacy
 
 - Progress and settings are saved to `pomodoro_data.json` in the same folder.
 - A backup file `pomodoro_data.json.bak` is kept when saving new data.
